@@ -24,4 +24,7 @@ function displayBreed (breed){
     let li = document.createElement('li')
     li.textContent= breed
     ul.appendChild(li)
+    li.addEventListener('click', () => {
+        li.style.color='hotpink'
+    })
 }
